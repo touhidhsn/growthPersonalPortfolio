@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: hk-grotesk;
+  src: url("./common/fonts/hk-grotesk.ttf");
+}
+
+@font-face {
+  font-family: hk-grotesk-medium;
+  src: url("./common/fonts/hk-grotesk-medium.ttf");
+}
+
+@font-face {
+  font-family: PlayfairDisplaySC-Regular;
+  src: url("./common/fonts/PlayfairDisplaySC-Regular.ttf");
+}

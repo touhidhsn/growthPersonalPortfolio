@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import Nav from "./common/Nav";
+import Featured from "./common/Featured";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <header>
         <Nav />
       </header>
+      <body>
+        <Featured />
+      </body>
     </div>
   );
 }

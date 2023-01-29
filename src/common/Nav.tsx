@@ -16,9 +16,13 @@ const Nav = () => {
 
   const [open, setOpen] = useState(false);
   return (
-    <section className='drop-shadow w-full left-0 top-0 bg-gray-700'>
+    <section className='drop-shadow w-full left-0 top-0 bg-[#1f2336] font-hkgroteskmedium'>
       <div className='md:flex justify-between items-center py-1 md:py-4 text-white container m-auto'>
-        <img src={logo} alt='' className='w-[150px] h-[39.66px] m-2' />
+        <img
+          src={logo}
+          alt=''
+          className='w-[150px] h-[39.66px] md:mx-0  mx-2 my-2'
+        />
         <div className='md:hidden absolute right-20 top-3'>
           <Button>
             <a href='/'>LET'S CHAT</a>
