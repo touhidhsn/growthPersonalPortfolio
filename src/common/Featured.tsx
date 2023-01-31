@@ -8,7 +8,7 @@ const Featured = () => {
     <section
       className='w-full h-screen bg-auto bg-left-bottom bg-no-repeat bg-[#1f2336] font-hkgrotesk'
       style={{ backgroundImage: `url(${bgImgUrl})` }}>
-      <div className='container m-auto flex text-white h-full '>
+      <div className='container m-auto text-white h-full '>
         <div className='h-screen items-center w-full flex'>
           <div className='w-1/2 relative'>
             <h4 className='text-yellow-400 text-[40px] font-hkgroteskmedium'>
@@ -22,8 +22,12 @@ const Featured = () => {
               Product Designer
             </h2>
           </div>
-          <div className='w-1/2 '>
-            <img src={heroImg} alt='' className='w-11/12 z-10' />
+          <div className='w-1/2 h-full '>
+            <img
+              src={heroImg}
+              alt=''
+              className='h-full object-cover object-top w-full max-w-[90%]'
+            />
           </div>
         </div>
       </div>

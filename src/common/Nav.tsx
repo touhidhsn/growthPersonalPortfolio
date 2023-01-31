@@ -16,7 +16,7 @@ const Nav = () => {
 
   const [open, setOpen] = useState(false);
   return (
-    <section className='drop-shadow w-full left-0 top-0 bg-[#1f2336] font-hkgroteskmedium'>
+    <div className='drop-shadow w-full bg-[#1f2336] font-hkgroteskmedium'>
       <div className='md:flex justify-between items-center py-1 md:py-4 text-white container m-auto'>
         <img
           src={logo}
@@ -48,7 +48,7 @@ const Nav = () => {
           </div>
         </ul>
       </div>
-    </section>
+    </div>
   );
 };
 
